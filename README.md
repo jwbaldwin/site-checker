@@ -6,4 +6,4 @@ Simple script that pings the given sites and returns their http return code.
 ### How
 * Edit the arrays with a list of subdomains
 * Edit the domain constant as well
-* run the script
+* **run the script**
