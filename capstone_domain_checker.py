@@ -14,6 +14,8 @@ student_subdomains = [
     'callout',
     'refugees',
     'thailandcld',
+    'thailandmh',
+    'vfront',
     'drm',
     'biofuels',
     'cc',
@@ -32,7 +34,7 @@ def check_status(url):
         else:
             return colored(code, 'red', attrs=['bold'])
     except Exception as e:
-        return colored('HTTP Error 401: Unauthorized', 'yellow', attrs=['bold'])
+        return colored(e, 'yellow', attrs=['bold'])
 
 print("Checking domain status codes for: System Applications")
 print("======================================================")
