@@ -19,6 +19,7 @@ student_subdomains = [
     'drm',
     'biofuels',
     'cc',
+    'linkup'
 ]
 
 
