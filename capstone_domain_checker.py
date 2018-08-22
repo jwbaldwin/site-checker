@@ -37,14 +37,14 @@ def check_status(url):
     except Exception as e:
         return colored(e, 'yellow', attrs=['bold'])
 
-print("Checking domain status codes for: System Applications")
+print("Checking domain status codes for: Student Applications")
 print("======================================================")
 
 for stud_subdomain in student_subdomains:
     print('-----> {:<15}'.format(stud_subdomain),
           '{:>30}'.format(check_status('https://' + stud_subdomain + '.' + domain)))
 
-print("\n\nChecking domain status codes for: Student Applications")
+print("\n\nChecking domain status codes for: System Applications")
 print("======================================================")
 for sys_subdomain in system_subdomains:
     print('-----> {:<15}'.format(sys_subdomain),
