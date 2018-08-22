@@ -7,6 +7,9 @@ Simple script that pings the given sites and returns their http return code.
 * Edit the arrays with a list of subdomains
 * Edit the domain constant as well
 * **run the script**
+```
+$ python3 capstone-connectivity-checker.py
+```
 
 #### TODO:
  - Add in a better way of choosing sites to ping, subdomain/domain entry
